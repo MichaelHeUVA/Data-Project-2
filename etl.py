@@ -90,7 +90,7 @@ def transform_data(price_df, sentiment_df):
 
 def get_dataframe():
     try:
-        if os.path.exists("data/preprocessed_data.csv"):
+        if os.path.exists("data/processed_data.csv"):
             df = pd.read_csv("data/processed_data.csv")
             return df
         else:
