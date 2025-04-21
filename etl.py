@@ -89,15 +89,19 @@ def transform_data(price_df, sentiment_df):
 
 
 def get_dataframe():
-    if os.path.exists("data/preprocessed_data.csv"):
-        df = pd.read_csv("data/processed_data.csv")
-        return df
-    else:
-        sentiment_df = extract_fear_greed()
-        price_df = load_price_data("data/BTCUSDT.csv")
-        transformed_df = transform_data(price_df, sentiment_df)
-        transformed_df.to_csv("data/processed_data.csv")
-        return transformed_df
+    try:
+        if os.path.exists("data/preprocessed_data.csv"):
+            df = pd.read_csv("data/processed_data.csv")
+            return df
+        else:
+            sentiment_df = extract_fear_greed()
+            price_df = load_price_data("data/BTCUSDT.csv")
+            transformed_df = transform_data(price_df, sentiment_df)
+            transformed_df.to_csv("data/processed_data.csv")
+            return transformed_df
+    except Exception as e:
+        print(f"Error in data processing: {e}")
+        return pd.DataFrame()
 
 
 if __name__ == "__main__":
