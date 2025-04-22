@@ -54,3 +54,5 @@ http://34.67.73.82:5001/chat?question=what%20months%20was%20the%20fear%20index%2
 	followed by other months with an index ranging from 80-90."
 }
 ```
+
+### [Reflection PDF](https://github.com/MichaelHeUVA/Data-Project-2/blob/main/Reflection%20Report.pdf)
