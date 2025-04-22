@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```
-http://34.67.73.82:5001/ask?question=<your question>
+http://34.67.73.82:5001/chat?question=<your question>
 ```
 
 ## Examples
@@ -21,7 +21,7 @@ http://34.67.73.82:5001/ask?question=<your question>
 If I wanted to know the price of bitcoin and the fear and greed index on April 18 2025, I would use the following URL:
 
 ```
-http://34.67.73.82:5001/ask?question=what%20is%20the%20price%20of%20bitcoin%20and%20fear%20and%20greed%20index%20on%20April%2018%202025
+http://34.67.73.82:5001/chat?question=what%20is%20the%20price%20of%20bitcoin%20and%20fear%20and%20greed%20index%20on%20April%2018%202025
 ```
 
 ### Example Reponse 1
@@ -38,7 +38,7 @@ If I wanted to ask Gemini about the months when the fear index was the highest, 
 
 ```
 
-http://34.67.73.82:5001/ask?question=what%20months%20was%20the%20fear%20index%20the%20highest
+http://34.67.73.82:5001/chat?question=what%20months%20was%20the%20fear%20index%20the%20highest
 
 ```
 

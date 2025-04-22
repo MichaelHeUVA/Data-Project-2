@@ -4,7 +4,7 @@ from gemini import get_gemini_response
 app = Flask(__name__)
 
 
-@app.route("/ask", methods=["GET"])
+@app.route("/chat", methods=["GET"])
 def ask():
     question = request.args.get("question")
     try:
