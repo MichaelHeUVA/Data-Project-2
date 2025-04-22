@@ -46,6 +46,11 @@ http://34.67.73.82:5001/chat?question=what%20months%20was%20the%20fear%20index%2
 
 ```json
 {
-    "response": "Based on the provided data, here's a breakdown of the months with the highest Fear and Greed Index values:\n\nTo accurately get an answer I would need to know what \"the highest\" range is to better determine which months were the \"highest.\" \n\nHowever, after looking through the data, it appears that the months with the highest fear and greed index were February 2021 with an index of 95 and June 2019 with an index of 95, closely followed by other months with an index ranging from 80-90."
+    "response": "Based on the provided data, here's a breakdown of the months with the highest
+	Fear and Greed Index values:\n\nTo accurately get an answer I would need to know what
+	\"the highest\" range is to better determine which months were the \"highest.\" \n\nHowever,
+	after looking through the data, it appears that the months with the highest fear and greed
+	index were February 2021 with an index of 95 and June 2019 with an index of 95, closely
+	followed by other months with an index ranging from 80-90."
 }
 ```
