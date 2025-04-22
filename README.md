@@ -1,5 +1,7 @@
 # Data Project 2
 
+Michael He, Anish Jagota
+
 ## Setup
 
 ```
